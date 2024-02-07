@@ -28,10 +28,10 @@
 <section id="form-validation">
     <h2 style="color: lightgreen;">HTML Forms Validation</h2>
 <form action="">
-<label for="fname">Fisrt Name:</label>
+<label for="fname">Fisrt Name:</label required>
 <input type="text" id="fname" name="fname"><br><br>
 <label for="lname">Last Name:</label>
-<input type="text" id="lname" name="lname">
+<input type="text" id="lname" name="lname" required>
 <p>Gender</p>
 <input type="radio" id="mgender" name="mgender">
 <label for="mgender">Male</label><br>
@@ -62,30 +62,22 @@
 
 <h1 style="color: skyblue;">Audio and Video</h1>
 
-    <video controls width="800" height="500">
-        <source scr="Coldplay - Yellow.mp4">
-    </video>
+    <video controls src="Yellow.mp4" type="mp4/mpeg">Yellow</video>
     <h3>Coldplay - Yellow</h3>
 
-    <audio controls>
-        <source scr="Coldplay - Yellow.mp3" type="audio/mp3">
-    </audio>
-
-    <a href="Coldplay - Yellow">https://youtu.be/yKNxeF4KMsY?si=1b42ZX3qE3DQ3LJj</a> 
-</p>
- 
+    <audio controls src="Coldplay - Yellow.mp3" type="mp3/ogg">Yellow</audio>
 <!-- Iframes and Embedded Content Section -->
 <section id="iframes-content">
     <h2 style="color: blueviolet">Iframes and Embedded Content</h2>
     <!-- Google Map Iframe -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d...your-map-coordinates" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61360.191582473126!2d120.707343848969!3d16.012892172365408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339119b206db3947%3A0x9e1a201124b04f41!2sTayug%2C%20Pangasinan!5e0!3m2!1sen!2sph!4v1707292788463!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    <br>
     <!-- Twitter Embed Code or Social Media Widget -->
     <!-- Replace the following with the actual embed code from Twitter or other social media -->
     <div class="twitter-feed">
         <!-- Your Twitter feed or social media widget code goes here -->
     </div>
 </section>
+    
 
 
 </body>
