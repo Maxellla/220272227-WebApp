@@ -32,18 +32,18 @@ img {max-width: 100%;
   height: 275px;
   margin: 0 auto;}
 
-h1{color:blanchedalmond;}
+h1{color:burlywood;}
 
-p{color: blanchedalmond;}
+p{color: burlywood;}
 
 figcaption{
-  color: blanchedalmond;
+  color: burlywood;
   font-style: italic;}
 
 button{padding: 10px;
   border-color: transparent;
   background-color: rgb(196, 3, 3);
-  color: blanchedalmond;
+  color: burlywood;
   border-radius: 10px;}
 
 
